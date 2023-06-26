@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Age calculator app | Frontend Mentor</title>
+  </head>
+  <body>
+    <div class="ocean">
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+
+    <div class="appName">
+      <p class="appNameText">
+        Please enter you birthday in this format shown, and press the purple
+        button
+      </p>
+    </div>
+    <div class="container" id="containerID">
+      <div class="col-s-12 col-lg-12">
+        <div class="row row-inputs">
+          <div class="box">
+            <p id="p-input-titles" class="day-in-box">Day</p>
+            <input type="datetime" name="day" id="day" placeholder="DD" />
+            <label for="span" class="dayLabel">This field is required</label>
+          </div>
+
+          <div class="box">
+            <p id="p-input-titles" class="month-in-box">Month</p>
+            <input type="datetime" name="month" id="month" placeholder="MM" />
+            <label for="span" class="monthLabel">This field is required</label>
+          </div>
+
+          <div class="box">
+            <p id="p-input-titles" class="year-in-box">Year</p>
+            <input type="datetime" name="year" id="year" placeholder="YYYY" />
+            <label for="span" class="yearLabel">This field is required</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-button">
+        <div class="col-s-12 col-lg-12"></div>
+        <hr />
+        <button
+          type="button"
+          id="button"
+          class="fa-solid fa-arrow-down"
+        ></button>
+      </div>
+
+      <div id="row-results-view" class="row">
+        <div class="col-s-12 col-lg-12">
+          <p id="result-text">time you've been alive;</p>
+          <div class="result">
+            <div class="row-results-layers row-result-years">
+              <span class="span-result-years">--</span>
+              <p class="p-result-years">years</p>
+            </div>
+            <div class="row-results-layers row-result-months">
+              <span class="span-result-months">--</span>
+              <p class="p-result-years">months</p>
+            </div>
+            <div class="row-results-layers row-result-days">
+              <span class="span-result-days">--</span>
+              <p class="p-result-years">days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >
+      Coded by <a href="https://github.com/rasimcelik/">Rasim Çelik</a>
+    </div>
+
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7c8801c017.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

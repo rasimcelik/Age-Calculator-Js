@@ -1,0 +1,13 @@
+APIKey = "e77d232b4d3c83b543fd0a500c8776ff"
+
+fontawesome icons:
+<scripts src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></scripts>
+
+
+fetch 
+
+https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+
+
+
+°C
