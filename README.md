@@ -43,9 +43,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 1](./assets/images/screenshot1.png)
+[Screenshot 1](./assets/images/screenshot1.png)
 
-![Screenshot 2](./assets/images/screenshot2.png)
+[Screenshot 2](./assets/images/screenshot2.png)
 
 ### Links
 
